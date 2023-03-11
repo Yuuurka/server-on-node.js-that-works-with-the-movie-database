@@ -1,0 +1,29 @@
+{
+  "name": "movie-card",
+  "version": "1.0.0",
+  "description": "a server on node.js that runs a movie database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuuurka/server-on-node.js-that-works-with-the-movie-database.git"
+  },
+  "author": "Krysanov Yuriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuuurka/server-on-node.js-that-works-with-the-movie-database/issues"
+  },
+  "homepage": "https://github.com/Yuuurka/server-on-node.js-that-works-with-the-movie-database#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-postgres": "^0.6.2",
+    "path": "^0.12.7",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
