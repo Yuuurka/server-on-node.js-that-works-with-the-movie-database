@@ -2,10 +2,10 @@ const Router = require('express');
 const router = new Router();
 const userController = require('../controller/user.controller')
 
-router.post('/user', userController.createFilm)
-router.get('/user/:id', userController.getFilm)
-router.put('/user', userController.updateFilm)
-router.delete('/user/:id', userController.deleteFilm)
+router.post('/film', userController.createFilm)
+router.get('/film/:id', userController.getFilm)
+router.put('/film', userController.updateFilm)
+router.delete('/film/:id', userController.deleteFilm)
 
 
 
